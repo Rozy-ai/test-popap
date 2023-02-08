@@ -1,7 +1,20 @@
-How to install
+# Test Project for Popap
 
-1.Copy project from github
-2.Copy example.env to .env
-3.Add database configuration into .env 
-4.Run on the core project composer install
-5.php artisan migrate
+## Project installation
+```
+git clone https://github.com/Rozy-ai/test-popap.git
+composer install
+```
+copy .example.env to .env
+```
+## Project Database installation
+You must create database "db_name" and add to .env
+```
+php artisan migrate
+```
+## Project run
+```
+php artisan serve
+```
+
+Thank you for your attention, have a nice and productive day!
